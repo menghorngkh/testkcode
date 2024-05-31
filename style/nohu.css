@@ -35,82 +35,55 @@ a{
     text-decoration: none;
 }
 
-.container .content{
-    padding: 5rem 2rem;
+.container{
+    padding: 2rem 0 0;
+    background: #fff;
 }
 
-.container .content .link{
+.title .link{
     display: inline-block;
     color: var(--color-pramiry);
-    padding:0 0 3rem 2rem;
-
+    padding: 0 2rem ;
 }
 
-.card {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    cursor: pointer;
+.title h1{
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: #000;
+    padding: 2rem ;
 }
 
-.card .box{
-    border: .1rem solid #bebebe;
-    padding: 2rem 0 0;
-    border-radius: 1rem;
+.content h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    padding: 1rem 0;
 }
 
-.card .box .box-content{
-    background: #ebeaea;
-    display:flex;
-    flex-direction: column;
+.content h3{
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #000;
+    padding: 1rem 0;
 }
 
-.card .box .box-content .center-img{
+
+.container .content{
+    padding: 1rem 2rem;
+    background-color: rgb(224, 224, 224);
+}
+
+.content p{
+    line-height: 1.5;
+}
+
+.content .image{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+    padding: 2rem 0;
 }
 
-.card .box .box-content .center-img .image{
-    max-width: 90%;
+.content .node .select:hover{
+    color:  rgb(224, 224, 4);
 }
-
-.card .box .box-content .center-img .image img{
-    width: 100%;
-}
-
-.card .box .box-content .desc {
-    padding: 1rem  2rem 3rem;
-    
-}
-.card .box .box-content .desc a{
-    color: #000;
-    
-}
-
-.x span{
-    display: flex;
-    justify-content:end;
-    align-items: center;
-}
-
-@media screen and (max-width:768px){
-    .card {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1.5rem;
-    }
-    .card .box .box-content{
-        background: #ebeaea;
-        display:flex;
-        flex-direction: row;
-        padding-bottom: 2rem;
-    }
-
-    .card .box .box-content .desc {
-      
-       padding-top: 4rem;
-    }
-}
-
