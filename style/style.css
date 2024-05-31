@@ -416,18 +416,12 @@ footer .footers{
 .content-footer .contect a{
     display: flex;
     padding:1rem 0;
-    border-bottom: .1px solid #ededed;
     font-size: 1.5rem;
-    font-weight: bold;
+
 }
 
-
-.content-footer .contect span{
-    display: flex;
-    padding: 1rem 0;
-    font-size: 1.5rem;
-    font-weight: bold;
-    cursor: pointer;
+.content-footer .contect .line{
+    border-bottom: .1rem solid #d5d5d5;
 }
 
 .content-footer .contect img{
